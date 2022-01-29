@@ -1,0 +1,59 @@
+body {
+    background-color:bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    font-family: "Helvetica Neue",Helvetica,Arial
+}
+
+h1 {
+    font-size: 3em;
+}
+
+#nav {
+    width: 60%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav li {
+    display: flex;
+    list-style-type: none;
+    align-self: center;
+    
+}
+
+nav li a {
+    text-decoration: none;
+    color: black
+}
+
+#home-image {
+    margin-top: 30px;
+}
+
+#about {
+    width: 70%;
+    text-align: justify;
+}
+
+#pics {
+    width: 80%;
+    display: flex-grid;
+    justify-content: center;
+    align-self: center;
+}
+
+
+#pics img {
+    display: flex-grid;
+    width: 200px;
+    height: 200px;
+    margin: 12px;
+}
